@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+   grid-template-columns: 2fr 1fr;
+   grid-template-rows: 10% 1fr 23%;
+   font-size: larger;
+   font-weight: 700;
+}
+header{
+    background-color: rgba(165, 160, 160, 0.443);
+    grid-column: 1/4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: rgba(255, 228, 196, 0.683);
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95%;
+    gap: 20px;
+}
+.menu1{
+    grid-column: 1/3;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+.menu2{
+    background-color: rgba(223, 191, 50, 0.548);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.menu3{
+    background-color: rgba(223, 191, 50, 0.548); 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.menu4{
+    background-color: rgba(223, 191, 50, 0.548);
+    grid-column: 1/3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+aside{
+    background-color: rgba(91, 173, 126, 0.467);
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+footer{
+    background-color: rgba(165, 160, 160, 0.443);
+    grid-column: 1/4;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    
+   
+    
+}
+.box{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
